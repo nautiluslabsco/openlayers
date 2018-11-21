@@ -10,6 +10,8 @@
   "private": true,
   "homepage": "https://openlayers.org/",
   "scripts": {
+    "prepare": "npm run build",
+    "build": "webpack --mode production",
     "lint": "eslint tasks test rendering src/ol examples config",
     "pretest": "npm run lint",
     "test-rendering": "node rendering/test.js",
