@@ -28,10 +28,10 @@
     "typecheck": "tsc --pretty",
     "apidoc": "jsdoc config/jsdoc/api/index.md -c config/jsdoc/api/conf.json -P package.json -d build/apidoc"
   },
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/openlayers/openlayers.git"
+    "url": "git://github.com/nautiluslabsco/openlayers.git"
   },
   "license": "BSD-2-Clause",
   "bugs": {
